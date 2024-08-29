@@ -3,7 +3,7 @@ title: my first note
 date: 2024-08-27 13:44:45
 tags: 笔记
 categories: 学习笔记
-cover: 
+cover: https://krseoul.imgtbl.com/i/2024/08/27/66cd66aeb09b1.png
 description: 测试的一个博文
 sticky: 1
 ---
@@ -13,6 +13,12 @@ sticky: 1
 $$a_{1}$$
 
 
+
+
+
+![image-20240828183213521](my-first-note/image-20240828183213521.png)
+
+$$ a_{1}=a_{1}$$
 
 数据的逻辑结构是从具体问题抽象出来的数学模型，反映了事物的组成结构及事物之间的逻辑关系。它可以通过集合论和图论的视角来描述和分析。
 
@@ -45,3 +51,7 @@ $$a_{1}$$
    - **层次结构**：某些关系可能表现为层次结构，例如课程的先修关系可以形成一棵树状结构。
 
 通过上述内容，我们可以看出数据的逻辑结构如何抽象和描述事物之间的逻辑关系。这种结构在数据管理和分析中具有重要意义，帮助我们理解和处理复杂的数据关系。
+
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>

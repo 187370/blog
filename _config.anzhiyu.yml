@@ -6,20 +6,22 @@ menu:
 
    友链:
      友人帐: /link/ || anzhiyu-icon-link
-     朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
      留言板: /comments/ || anzhiyu-icon-envelope
 
    我的:
      音乐馆: /music/ || anzhiyu-icon-music
      追番页: /bangumis/ || anzhiyu-icon-bilibili
      相册集: /album/ || anzhiyu-icon-images
-     小空调: /air-conditioner/ || anzhiyu-icon-fan
+     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
    关于:
      关于本人: /about/ || anzhiyu-icon-paper-plane
      闲言碎语: /essay/ || anzhiyu-icon-lightbulb
      随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-
+     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+   关于此站: /about-this-wed
+    
 # nav相关配置
 nav:
   enable: true
@@ -122,8 +124,8 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
 
 # KaTeX
 katex:
@@ -432,7 +434,7 @@ footer:
     work_img: https://img.shields.io/badge/C%2BV-%E4%B8%8A%E8%AF%BE%E6%91%B8%E9%B1%BC%E4%B8%AD-yellow?style=plastic&labelColor=blue&cacheSeconds=100000000
     work_description: 距离月入100k也就还差一个大佬带我~
     offduty_img: https://img.shields.io/badge/C%2BV-%E4%B8%8B%E8%AF%BE%E4%B9%9F%E8%A6%81%E6%91%B8%E9%B1%BC-yellow?style=plastic&labelColor=blue&cacheSeconds=100000000
-    offduty_description: 下班了就该开开心心的，嘿嘿~
+    offduty_description: 下课了就该开开心心的，嘿嘿~
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
@@ -1083,7 +1085,7 @@ home_top:
 friends_vue:
   enable: false
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
-  apiurl: # 朋友圈后端地址
+  apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background:
 
@@ -1101,9 +1103,10 @@ console:
 
 # 51a统计配置
 LA:
-  enable: false
-  ck:
-  LingQueMonitorID:
+  enable: true  # 启用统计功能
+  ck: 3JWBrTeuJco67s46  # 将此处替换为你的51.la提供的ck代码
+  LingQueMonitorID: ""  # 如果你有监控ID，将其填入；否则留空
+
 
 # 标签卖萌
 diytitle:
@@ -1212,11 +1215,11 @@ pageThumbnailSuffix: ""
 # 隐私协议弹窗
 agreementPopup:
   enable: true
-  url: /
+  url: /privacy
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:

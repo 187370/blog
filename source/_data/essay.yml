@@ -1,0 +1,37 @@
+- title: 即刻短文
+  subTitle: 日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://krseoul.imgtbl.com/i/2024/08/28/66ce8b913215e.jpg
+  essay_list:
+    - content: 安知鱼主题指南
+      date: 2024/8/28
+      video:
+        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
+    - content: 真累啊，连续搭了四天了，加油加油！
+      date: 2024/8/28
+      image: 
+        - https://krseoul.imgtbl.com/i/2024/08/27/66cda26d95e64.jpg
+      address: 北京
+      link: /essay
+    - content: 李总回北京了，耶嘿！
+      date: 2024/8/29
+      image:
+        - https://krseoul.imgtbl.com/i/2024/08/29/66cffd36b1368.jpg
+      address: 北京
+      link: /essay      
+    # - content: 支持了Accesskey快捷键，可以直接按下shift + ?组合键以查看快捷键选项。
+    #  date: 2023/07/01
+    #  video:
+    #    - https://cdn.jsdelivr.net/npm/anzhiyu-blog-static@1.0.0/video/%E9%A3%8E%E8%BD%A6%E6%A0%B7%E5%BC%8F%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88.mp4
+    #  image:
+    #    - https://img02.anheyu.com/adminuploads/1/2023/07/01/64a033cb2c21e.webp!blogimg
+    #  address: 长沙
+    #  from: 安知鱼
+    #  link: /posts/e140.html
+    #- content: 音乐支持了参数设置自定义歌单
+    #  date: 2023/01/02
+    #  link: https://blog.anheyu.com/music/?id=7269231710&server=tencent
